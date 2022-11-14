@@ -19,6 +19,7 @@ font-family: 'Poppins', sans-serif;
 html {
   font-size: 62.5%;
   line-height: 1.5;
+  font-family: "Poppins", sans-serif;
 }
 
 h1,
@@ -42,3 +43,309 @@ ol[class] {
   margin-top: var(--flow-spacer, var(--spacer));
 }
 /* Start Here */
+
+.container{
+  width: 1340px;
+  position: relative;
+  margin: 0 auto;
+}
+
+
+body {
+  padding: 25px 50px 75px;
+}
+
+p {
+  font-family: "Lora";
+  font-size: 18px;
+  color: #050505;
+  opacity: 50%;
+  
+}
+
+.logo-title {
+  font-family: "Poppins";
+  opacity: 100%;
+  color: #3D2892;
+}
+
+main {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+nav {
+  color: #3D2892;
+  margin: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__main {
+  position: relative;
+
+}
+
+li, .sign-up{
+  display: inline;
+  font-size: 18px;
+  padding-left: 2rem;
+}
+
+.sign-up {
+  text-decoration: none;
+}
+
+nav p {
+  font-weight: 900;
+  font-size: 26px;
+}
+
+nav a {
+  font-weight: 900;
+}
+
+span {
+  color: #F55D3A;
+
+}
+
+.pumpkin {
+  float: right;
+}
+
+.pumpkin__size {
+  width: 300px;
+  height: 300px;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 6.4rem;
+  color: #F55D3A;
+
+  text-transform: uppercase;
+
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 3.2;
+  font-family: "Lora";
+  color: #4A4A4A;
+
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 2.8rem;
+  color: #3D2892
+
+}
+
+.text__attribute-center {
+  text-align: center;
+}
+
+.text__attribute-spacing {
+  padding-bottom: 5px;
+}
+
+.text__attribute-dropshadow {
+  text-shadow: 2px 2px 5px #c0c0c0
+}
+
+.btn {
+  background-color: #3D2892;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+
+  border-radius: 5px;
+
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn__transparent{
+  font-size: 16px;
+  font-weight: bold;
+  color: #F55D3A;
+  text-decoration: none;
+
+}
+
+.hero {
+  margin-bottom: 100px;
+}
+
+.stories {
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+/* PARAMDAM */
+
+.paramdam {
+  display: flex;
+  flex-direction: row;
+  padding: 10% 10%;
+  align-items: center;
+}
+
+.text__paramdam {
+  max-width: 60%;
+  padding-left: 70px;
+  margin-top: -10px;
+}
+
+.paramdam-title {
+  padding-bottom: 10px;
+}
+
+.p1 {
+  margin-bottom: 10px;
+}
+
+.read-more {
+  padding-top: 20px;
+}
+
+.img__shadow-orange{
+  box-shadow: #F55D3A -1rem -1rem 0px;
+  border-radius: 2%;
+}
+
+/* SENYALES */
+
+.senyales {
+  padding-left: 70px;
+  padding-bottom: 150px;
+  
+}
+
+.senyales__img-position {
+  float:right;
+  padding-right: 70px;
+}
+
+.senyales-title{
+  padding-left: 40px;
+  padding-bottom: 35px;
+}
+
+.p2 {
+  padding-left: 40px;
+  max-width: 55%;
+  padding-bottom: 10px;
+  
+}
+
+.read-more__spacing {
+  padding-left: 40px;
+}
+
+.img__shadow-cyan{
+  box-shadow: #1ac3c3 1rem -1rem 0px;
+  border-radius: 2%;
+}
+
+/* TOP AUTHORS */
+
+.authors {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+
+.author__spacing {
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.author__spacing-adjust {
+margin-right: 20px;
+}
+
+.authors h3 {
+  text-align: center;
+  color: #F55D3A;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.authors p {
+  opacity: 80%;
+  text-align: center;
+}
+
+.authors img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* FOOTER */
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 250px;
+  position: absolute;
+}
+
+
+footer {
+  position: absolute;
+  margin-top: -200px;
+
+}
+
+.vector {
+  margin-left: -160px;
+  margin-bottom: -10px;
+  width: 118%;
+
+
+}
+
+footer h1 {
+  text-transform: none;
+  margin-right: 200px;
+}
+
+.footer__placeholder{
+  background-color: #d9d9d9;
+  padding: 8px 30px;
+  border: none;
+  
+}
+
+#b1 {
+  margin-left: 20px;
+}
+
+.footer__subtext {
+  position: absolute;
+  margin-top: 350px;
+  opacity: 100%;
+  color: #FFFAFB;
+  margin-left: 25%;
+  padding-top: 20px;
+  font-family: "Poppins";
+  font-weight: bold;
+  
+}
+
+
